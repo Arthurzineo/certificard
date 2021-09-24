@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background-image: url("https://life4sec.com.br/uploads/monthly_2020_03/1_4ENTv5SsXJ_vuUgjKbs0dg.png.a6451b10f9301bb2765261014512d015.png");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+}
+.container {
+  color: #1c1c1c;
+  background: #ecf4ff;
+  margin: 42px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 20px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.titulo h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+  margin-left: 270px;
+}
+
+.projetos {
+  text-decoration: none;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 60px;
+}
+.projetos a {
+  text-decoration: none;
+  transition: transform 0.6s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  color: black;
+}
+.linked {
+  max-width: 30px;
+}
+.projetos a:hover {
+  transform: scale(0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+.titulo a:hover {
+  transform: scale(0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  color: black;
+  text-decoration: none;
+}
+.titulo a {
+  transition: transform 0.6s ease-in-out;
+  color: black;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projeto-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.dark {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 44, 54, 1) 100%
+  );
+}
+.dark .container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 38, 42, 1) 100%
+  );
+  color: white;
+}
+
+.dark .projetos {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 63, 77, 1) 100%
+  );
+}
+.dark .tema button {
+  background: black;
+  color: white;
+}
